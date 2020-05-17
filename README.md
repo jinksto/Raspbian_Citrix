@@ -18,6 +18,8 @@ Someone on the team thought it'd be fun if we could get a thin-client connection
 ###### Install ICA
 1. DownloadCitrix "Workspace app for Linux (ARM HF)" deb package  from https://www.citrix.com/downloads/workspace-app/linux/workspace-app-for-linux-latest.html
 1. Open Terminal
+
+```bash
       `cd ~/Downloads`
       `sudo apt update`
       `sudo apt upgrade`
@@ -26,7 +28,8 @@ Someone on the team thought it'd be fun if we could get a thin-client connection
       `sudo apt upgrade`
       `sudo mv  /opt/Citrix/ICAClient/keystore/cacerts /opt/Citrix/ICAClient/keystore/cacerts_bk`
       `sudo ln -s /etc/ssl/certs/  /opt/Citrix/ICAClient/keystore/cacerts`
-      
+```
+
 ###### Go!
 1. From the desktop open your web browser and go to your F5 login portal.
 1. Login as you normall would
