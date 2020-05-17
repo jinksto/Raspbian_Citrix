@@ -20,14 +20,14 @@ Someone on the team thought it'd be fun if we could get a thin-client connection
 1. Open Terminal
 
 ```bash
-      $cd ~/Downloads`
-      $sudo apt update`
-      $sudo apt upgrade`
-      $sudo dpkg -i ./icaclient_20.04.0.21_armhf.deb`
-      $sudo apt update`
-      $sudo apt upgrade`
-      $sudo mv  /opt/Citrix/ICAClient/keystore/cacerts /opt/Citrix/ICAClient/keystore/cacerts_bk`
-      $sudo ln -s /etc/ssl/certs/  /opt/Citrix/ICAClient/keystore/cacerts`
+      $cd ~/Downloads
+      $sudo apt update
+      $sudo apt upgrade
+      $sudo dpkg -i ./icaclient_20.04.0.21_armhf.deb
+      $sudo apt update
+      $sudo apt upgrade
+      $sudo mv  /opt/Citrix/ICAClient/keystore/cacerts /opt/Citrix/ICAClient/keystore/cacerts_bk
+      $sudo ln -s /etc/ssl/certs/  /opt/Citrix/ICAClient/keystore/cacerts
 ```
 
 ###### Go!
