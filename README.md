@@ -32,7 +32,7 @@ Someone on the team thought it'd be fun if we could get a thin-client connection
 
 ###### Go!
 1. From the desktop open your web browser and go to your F5 login portal.
-1. Login as you normall would
+1. Login as you normally would
 1. Click the device you want to open
 1. Doubleclick the downloaded `launch.ica` 
 
