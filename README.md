@@ -11,8 +11,8 @@ Someone on the team thought it'd be fun if we could get a thin-client connection
 ###### Install Raspbian
 1. Download Raspbian latest desktop https://downloads.raspberrypi.org/raspbian_latest
 1. Burn to card with Raspberry Pi Imager: https://downloads.raspberrypi.org/imager/imager.exe 
-      This is new but seems to work though slower than win32DiskImage. Also, obviates the need to pre-download the image. 
-1. Once burned, insert the card, boot, configure networking, etc as you like.  
+      This is new but seems to work though slower than win32DiskImager. Also, obviates the need to pre-download the image. 
+1. Once burned, insert the card into your RPI, boot, configure networking, etc as you like.  
 
 
 ###### Install ICA
